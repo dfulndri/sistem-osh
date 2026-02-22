@@ -2,6 +2,14 @@
 
 **SMART OSH** adalah sistem manajemen K3 (Keselamatan dan Kesehatan Kerja) terpadu yang dirancang untuk lingkungan Politeknik. Aplikasi ini mengintegrasikan analisis risiko (HIRADC), laporan K3, dan monitoring performa keselamatan dalam satu dashboard digital.
 
+### Clone Repositori
+Langkah pertama, buka terminal kamu dan jalankan perintah berikut untuk menyalin proyek ke komputer lokal:
+
+```bash
+git clone [https://github.com/dfulndri/sistem-osh.git]
+cd sistem-osh
+```
+
 ## 🚀 Teknologi yang Digunakan
 
 * **Frontend:** React.js (Vite), Tailwind CSS, Lucide React
@@ -13,9 +21,9 @@
 
 ## 📁 Struktur Proyek
 
-* /apps/web/src/pages: Berisi halaman utama seperti HIRADC, Laporan, dan Dashboard.
-* /apps/web/src/components: Komponen UI yang dapat digunakan kembali (UI Kit).
-* /apps/web/src/lib: Konfigurasi klien untuk menghubungkan frontend ke PocketBase.
+* **/apps/web/src/pages:** Berisi halaman utama seperti HIRADC, Laporan, dan Dashboard.
+* **/apps/web/src/components:** Komponen UI yang dapat digunakan kembali (UI Kit).
+* **/apps/web/src/lib:** Konfigurasi klien untuk menghubungkan frontend ke PocketBase.
 
 ---
 
